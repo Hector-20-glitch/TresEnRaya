@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tres en Raya Online</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="contenedor">
+
+
+<h1>
+🎮 Tres en Raya Online
+</h1>
+
+
+
+<p id="turno">
+Turno jugador X
+</p>
+
+
+
+
+
+<div id="tablero">
+
+
+<div class="casilla" data-pos="0"></div>
+
+<div class="casilla" data-pos="1"></div>
+
+<div class="casilla" data-pos="2"></div>
+
+
+
+<div class="casilla" data-pos="3"></div>
+
+<div class="casilla" data-pos="4"></div>
+
+<div class="casilla" data-pos="5"></div>
+
+
+
+<div class="casilla" data-pos="6"></div>
+
+<div class="casilla" data-pos="7"></div>
+
+<div class="casilla" data-pos="8"></div>
+
+
+</div>
+
+
+
+
+
+<div class="botones">
+
+
+<button onclick="crearPartida()">
+
+🚀 Crear Partida
+
+</button>
+
+
+
+<button onclick="unirsePartida()">
+
+🔗 Unirse
+
+</button>
+
+
+
+<button id="reiniciar">
+
+🔄 Reiniciar
+
+</button>
+
+
+</div>
+
+
+
+
+
+<p id="resultado"></p>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- SUPABASE -->
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+
+<script src="js/supabase.js"></script>
+
+
+<script src="js/juego.js"></script>
+
+
+<script src="js/app.js"></script>
+
+
+
+
+</body>
+
+</html>
